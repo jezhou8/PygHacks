@@ -1,0 +1,35 @@
+.Container {
+	min-height: 15vh;
+	min-width: 100%;
+
+	margin-top: 5%;
+	margin-bottom: 5%;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+.Banner {
+	margin-bottom: 5%;
+	width: 100%;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+.TextContainer {
+	display: flex;
+	margin-left: 10%;
+	flex-direction: column;
+	justify-content: center;
+	align-self: center;
+}
+.text {
+	align-self: flex-start;
+}
